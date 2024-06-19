@@ -13,6 +13,8 @@ del users[2]
 
 users.remove('Doe')
 is_user_exist = 'Sara' in users
-print(is_user_exist)
 
-print(users)
+
+get_position_user = users.index('Sara')
+
+count_element = users.count('Sara')
